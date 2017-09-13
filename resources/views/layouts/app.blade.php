@@ -70,7 +70,7 @@
                     margin-bottom: 30px;
                 }
 
-                img
+                img{}
 
                 .imgcarouselprim-init{
                     width: 80vw;
