@@ -32,7 +32,7 @@
 
 
                 .full-height {
-                    height: 90vh;
+                    height: 100vh;
 
                 }
 
