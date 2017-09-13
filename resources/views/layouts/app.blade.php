@@ -14,19 +14,17 @@
         <!-- Styles -->
         <style>
 
-            @media screen and (max-width: 1000px) {
+            
 
-                div.container-login {
-                    display: none;
-                }
-            }
+
+            
 
             html, body {
                     background-color: #fff;
                     color: #636b6f;
                     font-family: 'Raleway', sans-serif;
                     font-weight: bold;
-                    height: 100vh;
+                    
                     margin: 0;
                     font-size: 14px;
                 }
@@ -35,12 +33,14 @@
 
                 .full-height {
                     height: 90vh;
+
                 }
 
                 .flex-center {
                     align-items: center;
                     display: flex;
                     justify-content: center;
+
                 }
 
                 .position-ref {
@@ -122,6 +122,14 @@
                 }
 
             
+
+
+            @media screen and (max-width: 1000px) {
+
+                div.container-login {
+                    display: none;
+                }
+            }
 
 
             
