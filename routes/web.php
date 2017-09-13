@@ -18,7 +18,7 @@ Auth::routes();
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout')->name('logout');
 
 
-Route::get('/gmaps', 'GmapsController@index')->name('map');
+Route::get('/gmaps', ['middleware' => 'HttpsProtocol', 'uses'=>'GmapsController@index'] )->name('map');
 
 Route::get('/firstsuper_create', 'FirstSuper@create')->name('firstsuperCreate');
 
