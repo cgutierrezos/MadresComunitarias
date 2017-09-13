@@ -1,9 +1,12 @@
 @extends('layouts.app')
 
 @section('body')
-
+    
 <div class="flex-center position-ref full-height">
-    <div class="container-fluid" >
+
+    
+    
+    <div class="container-login container-fluid" >
 
         @component('layouts.carousel.carousel', ['items' => 2])
                   
@@ -25,6 +28,7 @@
         @endcomponent
 
     </div>
+    
     <div class="container-fluid" >
         <div class="row">
             <div class="col-md-12 col-md-offset-2" style="margin: 0 auto; padding: 5%">

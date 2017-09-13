@@ -14,6 +14,13 @@
         <!-- Styles -->
         <style>
 
+            @media screen and (max-width: 1000px) {
+
+                div.container-login {
+                    visibility: hidden;
+                }
+            }
+
             html, body {
                     background-color: #fff;
                     color: #636b6f;
