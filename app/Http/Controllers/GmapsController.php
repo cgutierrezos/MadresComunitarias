@@ -64,7 +64,7 @@ class GmapsController extends Controller
         $map = \Gmaps::create_map();
  
         //Devolver vista con datos del mapa
-        return view('map.map', compact('map'));
+        return view('map.map', compact('map'), ['library' => 'places', 'key' => 'AIzaSyBPBDIY5GUEvcT4IKoGV124vkHVbR6Slk0']);
     }
 
     /**
