@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light ">
 	<a class="navbar-brand" href="{{route('welcome')}}" style="color: white">
-		<img src="{{ asset('images/ic_home_white_48dp_2x.png') }} " width="30" height="30" class="d-inline-block align-top" alt="">
+		<img src="{{ asset('images/ic_home_white_48dp_2x.png') }} " width="25" height="25" class="d-inline-block align-top" alt="">
 	Mi Hogar
 	</a>
 	
@@ -11,7 +11,13 @@
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
-				<a class="nav-link" href="{{route('welcome')}}" style="color: white">Inicio<span class="sr-only" >(current)</span></a>
+				<a class="nav-link" href="{{route('map')}}" style="color: white"><img src="{{ asset('images/ic_map_white_48dp_2x.png') }} " width="20" height="20" class="d-inline-block align-top" alt="" >Mapa</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{route('map')}}" style="color: white"><img src="{{ asset('images/ic_report_problem_white_48dp_2x.png') }} " width="20" height="20" class="d-inline-block align-top" alt="" >PQR</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="{{route('map')}}" style="color: white"><img src="{{ asset('images/ic_question_answer_white_48dp_2x.png') }} " width="20" height="20" class="d-inline-block align-top" alt="" >Comuniquese</a>
 			</li>
 			
 		</ul>
@@ -22,7 +28,7 @@
 			<img src="{{ asset('images/ic_search_white_48dp_2x.png') }} " width="20" height="20" class="d-inline-block align-top" alt="">Buscar</button>
 		</form>
 
-		<ul class="nav justify-content-end">
+		<ul class="nav">
 			@if (Route::has('login'))
 				@auth
 					<li class="nav-item dropdown">
@@ -46,7 +52,7 @@
 		            @endif
 		        @else
 		        	<li class="nav-item">
-		            	<a class="btn btn-outline-primary" href="{{ route('login') }}" style="color: white; border: none;">Entrar</a>
+		            	<a class="btn btn-outline-primary" href="{{ route('login') }}" style="color: white; border: none; font-weight: bold;">Entrar</a>
 		            </li>
 		        @endauth
 	        @endif

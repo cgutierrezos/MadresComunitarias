@@ -14,86 +14,107 @@
         <!-- Styles -->
         <style>
 
-        
+            html, body {
+                    background-color: #fff;
+                    color: #636b6f;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: bold;
+                    height: 100vh;
+                    margin: 0;
+                    font-size: 14px;
+                }
 
-            nav.navbar {
+
+
+                .full-height {
+                    height: 90vh;
+                }
+
+                .flex-center {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .position-ref {
+                    position: relative;
+                }
+
+                .top-right {
+                    position: absolute;
+                    right: 10px;
+                    top: 18px;
+                }
+
+                .container-fluid {
+                    text-align: center;
+                }
+
+                .title {
+                    font-size: 84px;
+                }
+
+                .links > a {
+                    color: white;
+                    padding: 0 25px;
+                    font-size: 13px;
+                    font-weight: bold;
+                    letter-spacing: .1rem;
+                    text-decoration: none;
+                    text-transform: uppercase;
+
+
+                }
+
+                .m-b-md {
+                    margin-bottom: 30px;
+                }
+
+                img
+
+                .imgcarouselprim-init{
+                    width: 80vw;
+                    height: 30vh; 
+                }
+
+                .imgcarouselsec-init{
+                    width: 60vw;
+                    height: 50vh; 
+                }
+
+                .imgcarouselprim-login{
+                    width: 50vw;
+                    height: 20vh; 
+                }
+
+                .imgcarouselsec-login{
+                    width: 40vw;
+                    height: 50vh; 
+                }
+
+                nav.navbar {
                 background-color: #4682B4;
-            }
+                }
 
-            .nav  {
+                .nav  {
+                    
+                    margin-left: 5%;
+                    margin-right: 2%;
+                }
+
                 
-                margin-left: 5%;
-                margin-right: 2%;
-            }
+                div.title {
+                    color:white; 
+                    width: 100%; 
+                    height: 100%;
+                }
+
+                a.link-title {
+                    color: white;
+                    text-decoration: none;
+                }
 
             
-            div.title {
-                color:white; 
-                width: 100%; 
-                height: 100%;
-            }
-
-            a.link-title {
-                color: white;
-                text-decoration: none;
-            }
-
-
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: bold;
-                height: 100vh;
-                margin: 0;
-                font-size: 14px;
-            }
-
-
-
-            .full-height {
-                height: 90vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .container-fluid {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: white;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: bold;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-
-
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
 
 
             
