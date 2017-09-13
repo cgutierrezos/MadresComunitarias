@@ -17,7 +17,7 @@
             @media screen and (max-width: 1000px) {
 
                 div.container-login {
-                    visibility: hidden;
+                    display: none;
                 }
             }
 
